@@ -7,3 +7,9 @@ eureka:
 #    locate the service-registry location
     service-url:
       defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8761/eureka}
+
+
+okta:
+  oauth2:
+    issuer: https://dev-80426189.okta.com/oauth2/default
+    audience: api://default      
